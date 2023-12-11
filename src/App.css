@@ -1,0 +1,16 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin:  0 auto;
+}
+
+.nav-list{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
